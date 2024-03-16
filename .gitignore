@@ -1,0 +1,54 @@
+## See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+## frontend 
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+frontend/cypress.env.json
+frontend/cypress/downloads
+
+# production
+frontend/build
+
+# misc
+.DS_Store
+.env.*
+*.code-workspace
+.vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+## backend
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pytest_cache
+.pip_tools_cache
+.env.*
+.virtual_documents
+.ipynb_checkpoints
+*.pkl
+*.bak
+*.db
+.coverage
+htmlcov/*
+coverage.xml
+
+# ignore ipynb files in the root directory only.
+/*.ipynb
+
+# for pyenv -- currently a local setup
+.python-version
+
+tmp/*
+output.dat
+
+backend/uploads
